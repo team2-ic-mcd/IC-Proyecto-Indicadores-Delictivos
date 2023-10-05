@@ -1,0 +1,8 @@
+#Ignorando la carpeta rawdata
+rawdata
+
+#Ignorando la carpeta tidydata
+tidydata
+
+#Ignorando la carpeta de logs
+logs
