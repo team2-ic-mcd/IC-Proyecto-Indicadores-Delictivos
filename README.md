@@ -120,9 +120,9 @@ Este enfoque analítico nos permitirá desarrollar una narrativa robusta y funda
 <br>
 <br>
 
-![](https://pbs.twimg.com/media/E-TEFJUWUAUx5q4.png)
+![](https://contraloria.sonora.gob.mx/images/2023/02/10/mapa_regionalizacion_cpcem_2021_2024.jpg)
 
 ### Análisis geoespacial de la distribución de tipos de delito en el estado de Sonora: norte, centro y sur
 
-> Este estudio tiene como objetivo investigar la incidencia de diversos tipos de delitos en diferentes zonas del estado de Sonora. Dado que Sonora es uno de los estados más extensos de México, resulta relevante comprender la distribución de estos delitos en el norte, centro y sur, y determinar si existen correlaciones significativas tanto entre las zonas como entre los municipios. Se llevará a cabo una comparación de los delitos en la frontera norte y sur del estado, con el propósito de identificar patrones y determinar cuál de estas áreas presenta una mayor conflictividad delictiva. Para llevar a cabo esta investigación, se empleará una base de datos que registra la ocurrencia de diferentes tipos de delitos en los municipios de Sonora a lo largo de un período de 5 años.
+> Este estudio tiene como objetivo investigar la incidencia de diversos tipos de delitos en diferentes zonas del estado de Sonora. Dado que Sonora es uno de los estados más extensos de México, resulta relevante comprender la distribución de estos delitos en distintas regiones, y determinar si existen correlaciones significativas tanto entre las zonas como entre los municipios. Se llevará a cabo una comparación de los delitos en las distintas regiones, con el propósito de identificar patrones y determinar cuál de estas áreas presenta una mayor conflictividad delictiva. Para llevar a cabo esta investigación, se empleará una base de datos que registra la ocurrencia de diferentes tipos de delitos en los municipios de Sonora a lo largo de un período de 5 años.
 
