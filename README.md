@@ -95,6 +95,74 @@ Estos análisis permitirán contar una narrativa basada en evidencia, explorando
 
 Este enfoque analítico nos permitirá desarrollar una narrativa robusta y fundamentada en datos que contribuirá a un mayor entendimiento de la incidencia delictiva en el contexto estudiado.
 
+## Metereología municipal y estatal
+
+En el contexto de este proyecto, se procederá a la obtención de un archivo CSV que contenga datos climatológicos diarios para cada municipio. Estos datos han sido adquiridos mediante el uso de la API Historical Weather. Para obtener información detallada sobre esta API, se puede consultar el siguiente sitio web: https://open-meteo.com/en/docs/historical-weather-api
+
+El conjunto de datos que se busca adquirir es el siguiente:
+
+* Datos climáticos municipales
+
+Las fuentes de estos datos son accesibles a través de la API, cuya ubicación se encuentra en el siguiente enlace: https://archive-api.open-meteo.com/v1/archive
+
+Una vez completada la obtención de estos datos en su forma original (raw), se llevará a cabo un proceso de limpieza y transformación con el propósito de estructurar los datos en tablas en conformidad con el formato 'tidy'. Este proceso de limpieza incluye la eliminación de valores NaN y la exclusión de datos correspondientes a fechas futuras.
+
+### Tablas tidy seleccionadas
+
+Después de adquirir los datos en su forma original y someterlos a un proceso de limpieza y transformación, se han generado seis tablas organizadas en el formato 'tidy'. Estas tablas, junto con sus respectivas descripciones, son las siguientes:
+
+1. Incidencia_Delictiva_Estatal:
+
+    * Año: año de registro de los datos.
+    * Mes: mes de registro de los datos.
+    * Entidad: entidad de registro.
+    * Clasificación de delitos (primera, segunda, tercera y cuarta): categorización de los delitos en diferentes niveles.
+    * Conteo de delitos: número de delitos registrados.
+
+2. Incidencia_Delictiva_Municipal:
+    * Año: año de registro de los datos.
+    * Mes: mes de registro de los datos.
+    * Municipio: municipio de registro.
+    * Clasificación de delitos (primera, segunda, tercera y cuarta): categorización de los delitos en diferentes niveles.
+    * Conteo de delitos: número de delitos registrados.
+    * Región del estado de Sonora: región geográfica a la que pertenece el municipio.
+
+3. Incidencia_Delictiva_Federal:
+    * Año: año de registro de los datos.
+    * Mes: mes de registro de los datos.
+    * Entidad: entidad de registro.
+    * Ley: ley relacionada con el delito.
+    * Concepto: concepto del delito.
+    * Tipo: tipo de delito.
+    * Conteo de delitos: número de delitos registrados.
+
+4. Victimas_Fuero_Comun_Estatal:
+    * Año: año de registro de los datos.
+    * Mes: mes de registro de los datos.
+    * Entidad: entidad de registro.
+    * Clasificación de delitos (primera, segunda y tercera): categorización de los delitos en diferentes niveles.
+
+5. Meteorología_Climatología_Estatal:
+    * Año: año de registro de los datos.
+    * Mes: mes de registro de los datos.
+    * Entidad: entidad de registro.
+    * Valor promedio mensual de temperatura máxima, mínima y promedio: valores climáticos registrados a dos metros sobre el suelo.
+    * Hora promedio mensual de salida y puesta de Sol: horarios en los cuales el sol aparece y desaparece del horizonte.
+    * Minutos promedio de luz solar: duración promedio de la luz solar en minutos.
+    * Precipitación total mensual: cantidad total de precipitación atmosférica registrada, incluyendo diversas formas de precipitación.
+    * Lluvia total mensual: cantidad total de lluvia registrada.
+    * Horas de precipitación mensual: suma total de horas con precipitación registrada.
+
+6. Meteorología_Climatología_Municipal:
+    * Año: año de registro de los datos.
+    * Mes: mes de registro de los datos.
+    * Entidad: entidad de registro.
+    * Municipio: municipio de registro.
+    * Región del estado de Sonora: región geográfica a la que pertenece el municipio.
+    * Valores climáticos, horarios, minutos de luz solar y datos de precipitación: similar a la tabla anterior, pero a nivel municipal.
+
+Estas tablas 'tidy' representan el resultado de una exhaustiva preparación de datos y están listas para ser utilizadas en análisis subsiguientes y en la construcción de modelos y narrativas basadas en datos.
+
 <h2 align="center">Historias a contar</h2>
 
 <br>
